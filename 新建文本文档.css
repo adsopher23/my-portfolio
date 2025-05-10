@@ -1,0 +1,68 @@
+/* 基本样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 页面背景与字体 */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* 标题样式 */
+header h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #007bff;
+}
+
+header p {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+}
+
+/* 文章区域 */
+.blog-posts {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts article {
+  margin-bottom: 20px;
+}
+
+.blog-posts h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.blog-posts button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-posts button:hover {
+  background-color: #0056b3;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
